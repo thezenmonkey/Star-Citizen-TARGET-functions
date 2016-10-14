@@ -1,0 +1,117 @@
+// Pre Alpha TARGET MACRO FILE for STAR CITIZEN CLOUD IMPERIUM GAME
+// Keys note are for American keyboard
+
+
+
+
+// Flight Control System******************** 
+
+// HUD
+define Overview 						USB[0x3E] //F5 key
+define Weapons 							USB[0x3F] //F6 key
+define Power 							USB[0x40] //F7 key
+define Shields 							USB[0x41] //F8 key
+define HUD_Mode_Toggle 					USB[0x3c] //F3 key
+define Cycle_HUD_Mode_Backward 			USB[0x14]  //q key
+define Cycle_HUD_Mode_Forward 			USB[0x08] //e key
+define Interact_With_HUD 				USB[0x28] // ENTER key
+define Navigate_HUD_Left 				USB[0x07] // d key
+define Navigate_HUD_Right 				USB[0x04] // a key
+define Navigate_HUD_Up 					USB[0x1a] // w key
+define Navigate_HUD_Down 				USB[0x16] // s key
+define Scoreboard 						USB[0x43] //F10 Key
+define UI_Cursor 						L_ALT+USB[0x38] //Left Alt + Forward slash
+
+define Comms							USB[0x54] // Numpad Slash
+
+// EJECT****************************
+define Eject 							L_ALT+USB[0x0F] //left alt + l key, EJECT
+define Self_Destruct 					R_ALT+USB[0x2a] //righr alt + backspace
+
+// RADAR*******************************
+define Nearest_Hostile 					USB[0x17] //t key
+define Cycle_Hostiles 					USB[0x1c] //y key
+define Cycle_Hostiles_Back 				USB[0x0b] //h key
+define Cycle_All_Targets 				USB[0x0c] //i key
+define Cycle_All_Targets_Back 			USB[0x0e] //k key
+define Pin_Target 						USB[0x13] //p key
+define Cycle_Pinned_Targets 			USB[0x12] //o key
+define Cycle_Friendly 					USB[0x18] //u key
+define Cycle_Friendly_Back 				USB[0x0d] //j key
+define Reticule_Focus 					USB[0x15] //r key
+//define Target_Sub_System
+//define Target_Sub_System_Back
+//define Cycle_Radar_focus_Forward 		USB[0x0D] //j key
+//define Cycle_Radar_focus_Back 		USB[0x0E] //k key
+define Match_Target_Velocity 			USB[0x10] // m key
+//define Radar_Zoom 					USB[0x36] //, Key
+
+// SYSTEM********************************
+define Menu 							USB[0x29] //Esc key
+define Console 							USB[0x35] //~key
+define Head_Lock_and HUD_interaction 	USB[0x2B] //tab key
+define Interact 						USB[0x09] //f key
+define Relative_mode 					L_CTL+USB[0x09] //left contrl + f key
+define Launch_CM 						USB[0x0A] //g key (needs hold)
+define Cycle_CM 						USB[0x0A] //g key
+
+define Fire_Group_1 					MOUSE_LEFT//mouse btn 1
+define Fire_Group_2 					MOUSE_RIGHT//mouse btn 2
+define Fire_Group_3 //Mouse btn 3
+define Fire_Group_4 //mouse btn 4
+
+define Gimbal_Lock 						L_ALT+USB[0x0D] // Left alt + j key
+
+
+// POWER DISTRIBUTION***********************
+
+define Increase_Power_Weapons			USB[0x1E] // 1 key
+define Increase_Power_Shields			USB[0x1F] // 2 key
+define Increase_Power_Engines			USB[0x20] // 3 key
+define Balance_Power					USB[0x27] // 0 key
+
+define Toggle_Power_Weapons				USB[0x21] // 4 key
+define Toggle_Power_Shields				USB[0x22] // 5 key
+define Toggle_Power_Engines				USB[0x23] // 6 key
+
+
+// SHIELD DISTRIBUTION***********************
+
+define Increase_Shield_Front			USB[0x60] // Numpad 8
+define Increase_Shield_Back				USB[0x5A] // Numpad 2
+define Increase_Shield_Left				USB[0x5C] // Numpad 4
+define Increase_Shield_Right			USB[0x5E] // Numpad 6
+define Increase_Shield_Top				USB[0x5F] // Numpad 7
+define Increase_Shield_Bottom			USB[0x61] // Numpad 9
+define Balance_Shields					USB[0x5D] // Numpad 5
+
+
+//COOLER RATE********************************
+
+define Increase_Cooler_Rate				L_ALT+USB[0x5F] //Left Alt Numpad 7
+define Decrease_Cooler_Rate				L_ALT+USB[0x61] //Left Alt Numpad 9
+
+
+//POWER PLANT********************************
+define Increase_Power_Throttle			L_ALT+USB[0x5C] //Left Alt Numpad 4
+define Decrease_Power_Throttle			L_ALT+USB[0x5E] //Left Alt Numpad 6
+
+
+ 
+//FLIGHT*********************************
+define FCS_Mode_Coupled_Decoupled 		USB[0x06]// c Key
+define Afterburner 						L_SHIFT//left shift key
+define Spacebreak 						USB[0x1b] //x key
+define IFCS_Mode_Toggle 				USB[0x19] // v key
+define IFCS_Mode_Safety 				L_ALT+USB[0x19] // left alt + v key
+define Landing_System 					USB[0x11] // n key
+define Automatic_Landing 				R_ALT+USB[0x11] // right alt + n key
+define Quantum_Travel_System 			USB[0x05] // b key
+define Throttle_Up 						USB[0x1a] // w key
+define Throttle_down 					USB[0x16] // s key
+define Toggle_Min_Max_Throttle 			USB[0x2a] //backspace key
+
+// CAMERA********************************
+
+define Change_Camera 					USB[0x3d]  // F4 Key
+define View_Mode 						USB[0x4B] //Page UP key
